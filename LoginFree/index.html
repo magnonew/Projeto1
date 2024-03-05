@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+<script>
+
+    function teste()
+    {
+      var usuario = document.getElementById("usuario").value;
+      var senha = document.getElementById("senha").value; 
+      
+      if (usuario == "admin" && senha == "123") window.location.href=("pagina.html")
+      else alert("Login invalido!");
+    };
+
+   
+
+   </script>
+
+
+
+   </head>
+
+
+
+
+    <body>
+    <p> Usuario:</p>
+    <input type="text" id="usuario">
+
+
+    <p> Senha:</p>
+    <input type="password" id="senha">
+
+    <button onclick="teste()">Entrar</button>
+    
+
+</body>
+</html> 
